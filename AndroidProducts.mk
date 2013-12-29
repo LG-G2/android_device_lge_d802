@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2013 BeerGang ROM
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,5 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/aosp_d802.mk \
-    $(LOCAL_DIR)/omni_d802.mk 
+    $(LOCAL_DIR)/beergang_d802.mk

@@ -1,7 +1,7 @@
 [
  {
-   "remote": "vertigo2012",
-   "repository": "android_device_lge_g2-common",
+   "remote": "github",
+   "repository": "vertigo2012/android_device_lge_g2-common",
    "target_path": "device/lge/g2-common",
    "revision": "android-4.4"
  },
