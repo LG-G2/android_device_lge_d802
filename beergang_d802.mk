@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Get the long list of APNs
-PRODUCT_COPY_FILES := vendor/beergang/prebuilt/commmon/etc/apns-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES := vendor/beergang/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
