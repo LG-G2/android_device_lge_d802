@@ -30,5 +30,5 @@ PRODUCT_COPY_FILES += \
 
 #Torch
  PRODUCT_PACKAGES += \
-        Torch
+        Lightbulb
 
