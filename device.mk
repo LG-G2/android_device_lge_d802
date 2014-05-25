@@ -32,3 +32,7 @@ PRODUCT_COPY_FILES += \
  PRODUCT_PACKAGES += \
         Lightbulb
 
+# NFC packages
+PRODUCT_PACKAGES += \
+    nfc_nci.g2 \
+    NfcNci
