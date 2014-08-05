@@ -26,11 +26,6 @@ $(call inherit-product, vendor/beergang/products/common.mk)
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 $(call inherit-product, device/lge/d802/device.mk)
 
-# Kernel inline build
-TARGET_KERNEL_CONFIG := cyanogenmod_d802_defconfig
-TARGET_VARIANT_CONFIG := cyanogenmod_d802_defconfig
-TARGET_SELINUX_CONFIG := cyanogenmod_d802_defconfig
-
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := beergang_d802
 PRODUCT_DEVICE := d802
